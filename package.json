@@ -1,0 +1,20 @@
+{
+  "name": "spaStore",
+  "version": "1.0.0",
+  "description": "Simple SPA-STORE with fakestore.api",
+  "main": "index.js",
+  "repository": "https://github.com/jamesnoria/store-spa",
+  "author": "James Noria <jamesnoria@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "autoprefixer": "^10.4.1",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}

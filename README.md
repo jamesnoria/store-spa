@@ -1,6 +1,6 @@
 # STORE-SPA
 
-This is a Single Page Application (SPA) of a online-store where I use data from [Fake Store API](https://fakestoreapi.com/). My main purpose is for practice.
+This is a Single Page Application (SPA) of an online-store where I use data from [Fake Store API](https://fakestoreapi.com/). My main purpose is for practice.
 
 ## Run Locally
 

@@ -1,7 +1,7 @@
 const Header = () => {
-	const view = `
+  const view = `
 	<nav
-		class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
+		class="bg-gray-800 border-gray-200 px-2 sm:px-4 py-2.5"
 	>
 		<div class="container flex flex-wrap justify-between items-center mx-auto">
 			<a href="#" class="flex">
@@ -40,7 +40,7 @@ const Header = () => {
 					<span class="sr-only">Open user menu</span>
 					<img
 						class="w-8 h-8 rounded-full"
-						src="./linus-torvalds.jpg"
+						src="./assets/linus-torvalds.jpg"
 						alt="user photo"
 					/>
 				</button>
@@ -171,7 +171,7 @@ const Header = () => {
 		</div>
 	</nav>`;
 
-	return view;
+  return view;
 };
 
 export default Header;

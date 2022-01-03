@@ -35,8 +35,8 @@ module.exports = {
 					to: "",
 				},
 				{
-					from: "./src/styles/linus-torvalds.jpg",
-					to: "",
+					from: "./src/assets",
+					to: "./assets",
 				},
 			],
 		}),

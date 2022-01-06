@@ -18,11 +18,9 @@ const router = async () => {
   const footer = null || document.getElementById('footer');
 
   header.innerHTML = await Header();
-  let hash = getHash();
-  console.log(hash);
-  let route = await resolveRoutes(hash);
-  console.log(route);
-  let render = routes[route] ? routes[route] : Error404;
+  const hash = getHash();
+  const route = await resolveRoutes(hash);
+  const render = routes[route] ? routes[route] : Error404;
   content.innerHTML = await render();
   footer.innerHTML = await Footer();
 };

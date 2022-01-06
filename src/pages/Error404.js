@@ -1,5 +1,5 @@
 const Error404 = () => {
-	const view = `
+  const view = `
 	<div class="h-screen w-screen bg-gray-100 flex items-center">
 		<div class="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700">
 	   		<div class="max-w-md">
@@ -15,8 +15,8 @@ const Error404 = () => {
 	    </div>
 	  </div>
 	</div>
-	`
-	return view;
-}
+	`;
+  return view;
+};
 
 export default Error404;

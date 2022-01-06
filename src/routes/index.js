@@ -15,6 +15,7 @@ const routes = {
 const router = async () => {
   const header = null || document.getElementById('header');
   const content = null || document.getElementById('content');
+  const footer = null || document.getElementById('footer');
 
   header.innerHTML = await Header();
   let hash = getHash();
@@ -23,6 +24,7 @@ const router = async () => {
   console.log(route);
   let render = routes[route] ? routes[route] : Error404;
   content.innerHTML = await render();
+  footer.innerHTML = await Footer();
 };
 
 export default router;

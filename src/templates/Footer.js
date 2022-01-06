@@ -1,16 +1,8 @@
 const Footer = () => {
   const view = `
-	<div class="bg-gray-900">
-	    <footer class="flex flex-wrap items-center justify-between p-3 m-auto">
-	        <div class="container mx-auto flex flex-col flex-wrap items-center justify-between">
-	            <ul class="flex mx-auto text-white text-center">
-	              <li class="p-2">This project is open source: <a href="https://github.com/jamesnoria/store-spa">click here</a></li>
-	            </ul>
-	            <div class="flex mx-auto text-white text-center">
-	                Todos los izquierdos reservados | James Noria
-	            </div>
-	        </div>
-	    </footer>
+	<div class="w-full bg-gray-800 text-gray-300 text-center font-medium p-4">
+	  This project is open source: <a href="https://github.com/jamesnoria/store-spa" target="_blank"><img src="https://icongr.am/octicons/git-fork.svg?size=20&color=ffffff" alt="fork-logo" class="inline hover:scale-125" /></a>
+	  <span class="block mt-2">&copy James Noria</span>
 	</div>
 	`;
 

@@ -5,14 +5,14 @@ const Product = async () => {
   const id = getHash();
   const product = await getProducts(id);
 	const view = `
-    <div class="container flex flex-col justify-center h-screen">
+    <div class="container flex flex-col justify-center h-auto mt-20 mb-20 ">
         <div
             class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white"
         >
             <div class="w-full md:w-1/3 bg-white grid place-items-center pt-4 pb-12">
                 <img
                     src="${product.image}"
-                    alt="tailwind logo"
+                    alt="product image"
                     class="rounded-xl"
                 />
             </div>

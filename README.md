@@ -16,12 +16,14 @@ Install dependencies
 
 ```bash
   npm install
+  yarn
 ```
 
 Start the server
 
 ```bash
   npm run start
+  yarn install
 ```
 
 ## Tech Stack
